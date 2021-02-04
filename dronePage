@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aerial Photography</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+      }
+
+      a:link {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      /* Style the header */
+      .header {
+        background-color: #f1f1f1;
+        padding: 15px;
+        text-align: center;
+      }
+
+      img {
+        border-radius: 10px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .column {
+        float: left;
+        width: 33.3%;
+      }
+
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Aerial Drone Photography</h1>
+    </div>
+
+    <div style="text-align: center; padding: 15px;">
+      <div>
+        <a href="index.html"><p>Back to Home</p></a>
+      </div>
+      <p style="line-height: 1.5;">
+        As a kid Tim loved flying remote control helicopers and taking photos. 
+        As drone technology advanced over the last 5 years, Tim decided to purchase a
+        video drone and combine his interests. With extra time during quarantine and over the summer, 
+        Tim recorded clips of boats and scenery around his lake house in New Hampshire. Combining the clips
+        into an iMovie project, he recently published the movie to YouTube.
+        
+      </p>
+      <a
+        href="https://www.youtube.com/watch?v=OKPeEnyq6Ks&ab_channel=TimLongfield"
+        target="_blank"
+        >Watch YouTube Video</a
+      >
+
+      <p style="line-height: 1.5;">
+        The picture below was taken of Silver Lake, NH.
+      </p>
+      <img
+        src="https://cdn.glitch.com/8a36501d-26af-4a91-9340-6a95fdd5ab0c%2FDrone%20Pic.png?v=1612464422943"
+        alt="Drone Pic"
+        style="width:75%"
+      />
+    </div>
+  </body>
+</html>
