@@ -107,14 +107,14 @@
         </div>
 
         <div>
-          <p>
+          <p style="line-height: 1.5;">
             Tim Longfield is a <span><b>junior</b></span> at Boston College
             studying <span><b>Computer Science.</b></span> He grew up in
             Cambridge, MA with his twin brother, Matt, and older sister, Kate.
             Tim is an avid <span><b>Boston sports fan</b></span> and loves
             playing hockey, basketball, baseball, and tennis.
           </p>
-          <p>
+          <p style="line-height: 1.5;">
             Although Tim is majoring in Computer Science, he is also interested
             in <span><b>data analytics</b></span> and the emerging field of
             <span><b>biomedical engineering/biotechnology</b></span
@@ -125,7 +125,7 @@
 
       <section id="education">
         <h2>Education</h2>
-        <p>
+        <p style="line-height: 1.5;">
           <b>Relevant coursework:</b>
           Multivariable Calculus, Linear Algebra, Logic & Computation,
           Randomness & Computation, Computer Systems, Computer Organization,
@@ -144,7 +144,7 @@
           target="_blank"
           >App Store</a
         >
-        <p>
+        <p style="line-height: 1.5;">
           Over the last year, Tim developed and iOS app with the mission to
           revolutionize the way students engage with one another on a college
           campus. Every day each student receives information from the school
@@ -154,7 +154,7 @@
           news on Twitter, text messages, canvas notifications... the list goes
           on and on!
         </p>
-        <p>
+        <p style="line-height: 1.5;">
           Introducing CampusPost -- an exclusive platform for students to share,
           connect, and exchange on a college campus.
         </p>
@@ -191,7 +191,7 @@
           >Silver Lake Summer 2020</a
         >
 
-        <p>
+        <p style="line-height: 1.5;">
           This summer Tim purchased a DJI Mavic Air 2 drone and recorded clips
           at his house in Silver Lake, NH. Watch the video he created on
           YouTube.
@@ -205,7 +205,7 @@
 
       <section id="news">
         <h2>News</h2>
-        <p>
+        <p style="line-height: 1.5;">
           After Tim's spring semester abroad in Spain was canceled due to
           COVID-19, he and a few of his friends decided to relocate for the
           semester and take advantage of online classes. As someone who is
