@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iOS App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+      }
+
+      a:link {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      /* Style the header */
+      .header {
+        background-color: #f1f1f1;
+        padding: 15px;
+        text-align: center;
+      }
+
+      img {
+        border-radius: 10px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .column {
+        float: left;
+        width: 33.3%;
+      }
+
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>iOS App Development</h1>
+    </div>
+
+    <div style="text-align: center; padding: 15px;">
+      <div>
+        <a href="index.html"><p>Back to Home</p></a>
+      </div>
+      <img
+            src="https://cdn.glitch.com/8a36501d-26af-4a91-9340-6a95fdd5ab0c%2FCPost%20Logo.png?v=1612476195372"
+            alt="App Logo"
+            style="width:50%"
+          />
+      <p style="line-height: 1.5;">
+        Tim and his brother Matt came up with the idea for CampusPost in January of 2020. Originating as only a marketplace, 
+        the app developed into a complex platform for student posts, school events, and direct messaging. Without any previous knowledge
+        of app development or design, Tim read extensively about SwiftUI and explored various resources on the internet. Using Firebase 
+        as a backend server, CampusPost is now live at several schools across the Northeast!
+      </p>
+      <a
+        href="https://apps.apple.com/us/app/campuspost/id1530880666"
+        target="_blank"
+        >View on App Store</a
+      >
+      <p>
+        Below are a few screenshots of the app's design:
+      </p>
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://cdn.glitch.com/8a36501d-26af-4a91-9340-6a95fdd5ab0c%2FCPost1.png?v=1612463454215"
+            alt="App Screenshot1"
+            style="width:50%"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="https://cdn.glitch.com/8a36501d-26af-4a91-9340-6a95fdd5ab0c%2FCPost2.png?v=1612463427488"
+            alt="App Screenshot 2"
+            style="width:50%"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="https://cdn.glitch.com/8a36501d-26af-4a91-9340-6a95fdd5ab0c%2FCPost3.png?v=1612463428572"
+            alt="App Screenshot 3"
+            style="width:50%"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
